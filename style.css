@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: hsl(30, 54%, 90%);
+}
+
+/* conteneur principale */
+.container {
+  width: 30%;
+  height: 130vh;
+  margin: 30px auto;
+  padding: 0px 20px;
+  border: 2px solid;
+  background-color: hsl(0, 0%, 100%);
+  font-weight: normal;
+  font-size: 9px;
+}
+
+/* section temps de preparation */
+.nav {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.nav img {
+  position: relative;
+  width: 105%;
+  height: 20vh;
+  margin: 5px -6px;
+  border: 2px solid hsl(30, 54%, 90%);
+  border-radius: 9px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 15px;
+}
+p {
+  padding-top: 6px;
+  font-weight: normal;
+}
+.prepa {
+  background-color: hsl(330, 100%, 98%);
+  font-size: 10px;
+  display: inline-block;
+  width: 95%;
+  height: 13vh;
+  padding: 10px 10px;
+  margin: 0px 10px;
+}
+.prepa h3 {
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  text-transform: capitalize;
+}
+.prepa ul {
+  padding: 3px 4px;
+  margin: 1px 14px;
+}
+.prepa ul li {
+  padding: 2px;
+}
+.prepa ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+/* section ingredients */
+.ingre {
+  padding: 10px 10px;
+  border-bottom: 2px solid hsl(30, 54%, 90%);
+}
+.ingre ul {
+  padding: 3px 4px;
+  margin: 1px 14px;
+}
+.ingre ul li {
+  padding: 2px;
+}
+.ingre ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 15px;
+}
+
+/* section instructions */
+.inst {
+  padding: 10px 10px;
+  border-bottom: 2px solid hsl(30, 54%, 90%);
+}
+.inst ol {
+  padding: 3px 4px;
+  margin: 1px 14px;
+}
+.inst ol li {
+  padding: 2px;
+}
+.inst ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+/* section nutrition */
+.nutri {
+  padding: 10px 10px;
+}
+table {
+  padding: 30px;
+  width: 100%;
+  height: 20vh;
+  border-collapse: collapse;
+}
+tr {
+  padding: 10px;
+  border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+td {
+  padding: 10px 20px;
+}
+
+td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    height: 130vh;
+    border-radius: 0px;
+    border-color: white;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 40%;
+    height: 130vh;
+    border-radius: 22px;
+    border-color: white;
+  }
+}
