@@ -131,10 +131,23 @@ td:nth-child(2) {
 }
 @media screen and (max-width: 375px) {
   .container {
-    width: 90%;
-    height: 130vh;
-    border-radius: 0px;
-    border-color: white;
+    width: 90% !important;
+    height: 100% !important;
+    border-radius: 0px !important;
+    border-color: white !important;
+  }
+  img {
+    width: 268px !important;
+    height: 10% !important;
+    padding: 00px !important;
+    margin-bottom: 10px !important;
+    margin-top: -11px !important;
+    margin-left: -35px !important;
+    border-radius: 0px !important;
+  }
+  h1,
+  h2 {
+    font-size: 20px !important;
   }
 }
 @media screen and (max-width: 1440px) {

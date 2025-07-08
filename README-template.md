@@ -21,7 +21,8 @@ Créer une page de recette fidèle au design fourni, en utilisant HTML et CSS, e
 
 ### Capture d'écran
 
-![](./screenshot.jpg)
+![](./Capture%20d’écran_7-7-2025_141846_127.0.0.1.jpeg)
+![](./Capture%20d’écran_7-7-2025_141936_127.0.0.1.jpeg)
 
 ### Liens
 

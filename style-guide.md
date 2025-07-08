@@ -15,7 +15,7 @@ Les designs ont été créés pour les largeurs suivantes :
 
 - Pierre 100 : hsl(30, 54%, 90%)
 - Pierre 150 : hsl(30, 18%, 87%)
-- Pierre 600 : hsl(30, 10%, 34%)
+- Pierre 600 : hsl(332, 51%, 32%)
 - Pierre 900 : hsl(24, 5%, 18%)
 
 - Marron 800 : hsl(14, 45%, 36%)
