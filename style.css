@@ -130,12 +130,13 @@ td {
 td:nth-child(2) {
   color: hsl(14, 45%, 36%);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .container {
     width: auto !important;
     height: auto !important;
     border-radius: 0px !important;
     border-color: white !important;
+    margin: 0px;
   }
   .nav {
     display: inline-block;
@@ -152,9 +153,9 @@ td:nth-child(2) {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1445px) {
   .container {
-    margin: 10% auto;
+    margin: 7% auto;
     width: 40%;
     height: auto;
     border-radius: 22px;
