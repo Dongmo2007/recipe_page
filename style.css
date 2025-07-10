@@ -15,8 +15,8 @@ body {
 
 /* conteneur principale */
 .container {
-  width: 30%;
-  height: 130vh;
+  width: auto;
+  height: auto;
   /* margin: 30px auto; */
   padding: 0px 20px;
   border: 2px solid;
@@ -33,7 +33,7 @@ body {
 
 .nav img {
   position: relative;
-  width: 105%;
+  width: auto;
   height: 20vh;
   margin: 5px -6px;
   border: 2px solid hsl(30, 54%, 90%);
@@ -141,6 +141,9 @@ td:nth-child(2) {
   .nav {
     display: inline-block;
     margin: 0;
+  }
+  .prepa {
+    padding-bottom: 5%;
   }
   img {
     width: 35em !important;
