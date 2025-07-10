@@ -10,13 +10,14 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
 }
 
 /* conteneur principale */
 .container {
   width: 30%;
   height: 130vh;
-  margin: 30px auto;
+  /* margin: 30px auto; */
   padding: 0px 20px;
   border: 2px solid;
   background-color: hsl(0, 0%, 100%);
@@ -131,13 +132,17 @@ td:nth-child(2) {
 }
 @media screen and (max-width: 400px) {
   .container {
-    width: 28em !important;
+    width: auto !important;
     height: auto !important;
     border-radius: 0px !important;
     border-color: white !important;
   }
+  .nav {
+    display: inline-block;
+    margin: 0;
+  }
   img {
-    width: 28em !important;
+    width: 42em !important;
     height: 10% !important;
     padding: 00px !important;
     margin-bottom: 10% !important;
@@ -145,15 +150,13 @@ td:nth-child(2) {
     margin-left: -32px !important;
     border-radius: 0px !important;
   }
-  h1,
-  h2 {
-    font-size: 20px !important;
-  }
 }
-@media screen and (max-width: 1440px) {
+
+@media screen and (max-width: 1600px) {
   .container {
+    margin: 10% auto;
     width: 40%;
-    height: 130vh;
+    height: auto;
     border-radius: 22px;
     border-color: white;
   }
