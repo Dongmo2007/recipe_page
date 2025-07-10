@@ -143,7 +143,7 @@ td:nth-child(2) {
     margin: 0;
   }
   .prepa {
-    padding-bottom: 5%;
+    padding-top: 5%;
   }
   img {
     width: 35em !important;
@@ -163,5 +163,22 @@ td:nth-child(2) {
     height: auto;
     border-radius: 22px;
     border-color: white;
+  }
+  img {
+    position: relative;
+    width: 30em;
+    height: auto;
+    margin: 5px 20px;
+    border: 2px solid hsl(30, 54%, 90%);
+    border-radius: 9px;
+  }
+  .prepa {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 10px;
+    display: inline-block;
+    width: 95%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0px 10px;
   }
 }
