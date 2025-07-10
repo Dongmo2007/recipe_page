@@ -144,6 +144,7 @@ td:nth-child(2) {
   }
   .prepa {
     padding-top: 5%;
+    height: auto;
   }
   img {
     width: 35em !important;
